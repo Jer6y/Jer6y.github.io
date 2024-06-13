@@ -8,7 +8,7 @@ $(function () {
             "WINDDIRECTION": 240.5034722,
             "TEMPERATURE": -3.302951389,
             "HUMIDITY": 35.94513889,
-            "PRESSURE": 841.1361111,
+            "PRESSURE": 41.1361111,
             "ROUND(A.WS,1)": 3.725347222,
             "ROUND(A.POWER,0)": 32816.51424,
             "YD15": 30668.22339
@@ -20,7 +20,7 @@ $(function () {
             "WINDDIRECTION": 222.3866308,
             "TEMPERATURE": -7.452233792,
             "HUMIDITY": 48.43936849,
-            "PRESSURE": 841.7017131,
+            "PRESSURE": 41.7017131,
             "ROUND(A.WS,1)": 5.041010855,
             "ROUND(A.POWER,0)": 56795.33752,
             "YD15": 54020.91981
@@ -32,7 +32,7 @@ $(function () {
             "WINDDIRECTION": 179.6838038,
             "TEMPERATURE": -6.883501344,
             "HUMIDITY": 43.84375,
-            "PRESSURE": 836.1461694,
+            "PRESSURE": 36.1461694,
             "ROUND(A.WS,1)": 3.466229839,
             "ROUND(A.POWER,0)": 28228.37735,
             "YD15": 25841.26815
@@ -44,7 +44,7 @@ $(function () {
             "WINDDIRECTION": 179.1160714,
             "TEMPERATURE": -6.037723214,
             "HUMIDITY": 33.59449405,
-            "PRESSURE": 837.3258929,
+            "PRESSURE": 37.3258929,
             "ROUND(A.WS,1)": 4.744940476,
             "ROUND(A.POWER,0)": 45257.70722,
             "YD15": 42610.15253
@@ -56,7 +56,7 @@ $(function () {
             "WINDDIRECTION": 182.719422,
             "TEMPERATURE": 5.612331989,
             "HUMIDITY": 30.77251344,
-            "PRESSURE": 832.8269489,
+            "PRESSURE": 32.8269489,
             "ROUND(A.WS,1)": 5.112735215,
             "ROUND(A.POWER,0)": 57110.69691,
             "YD15": 55128.82036
@@ -68,7 +68,7 @@ $(function () {
             "WINDDIRECTION": 186.8042385,
             "TEMPERATURE": 11.09091236,
             "HUMIDITY": 18.0625,
-            "PRESSURE": 836.2600575,
+            "PRESSURE": 36.2600575,
             "ROUND(A.WS,1)": 5.093534483,
             "ROUND(A.POWER,0)": 54772.55316,
             "YD15": 52751.80136
@@ -80,7 +80,7 @@ $(function () {
             "WINDDIRECTION": 134.9512932,
             "TEMPERATURE": 18.97850185,
             "HUMIDITY": 19.27947598,
-            "PRESSURE": 831.5529056,
+            "PRESSURE": 31.5529056,
             "ROUND(A.WS,1)": 7.477158213,
             "ROUND(A.POWER,0)": 57116.29795,
             "YD15": 55419.88306
@@ -92,7 +92,7 @@ $(function () {
             "WINDDIRECTION": 135.76875,
             "TEMPERATURE": 23.92329861,
             "HUMIDITY": 20.73020833,
-            "PRESSURE": 828.9767361,
+            "PRESSURE": 28.9767361,
             "ROUND(A.WS,1)": 5.730448384,
             "ROUND(A.POWER,0)": 63665.9635,
             "YD15": 60894.75339
@@ -456,7 +456,7 @@ $(function () {
                 },
                 {
                     type: 'value',
-                    name: 'Pressure (hPa)',
+                    name: '+800 Pressure (hPa)',
                     position: 'right',
                     axisLine: {
                         lineStyle: {
