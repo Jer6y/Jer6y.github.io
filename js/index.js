@@ -211,7 +211,7 @@ $(function () {
             }],
             series: [
                 {
-                    name: 'WINDSPEED *10000',
+                    name: 'WINDSPEED',
                     type: 'line',
                     data: data.map(item => item.WINDSPEED)
                 },
