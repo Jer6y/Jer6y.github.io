@@ -3,7 +3,7 @@ $(function () {
     var data = [
         {
             "YearMonth": "Nov-24",
-            "WINDSPEED": 5.139097222,
+            "WINDSPEED": 51390.97222,
             "PREPOWER": 39651.15639,
             "WINDDIRECTION": 240.5034722,
             "TEMPERATURE": -3.302951389,
@@ -15,7 +15,7 @@ $(function () {
         },
         {
             "YearMonth": "Dec-24",
-            "WINDSPEED": 9.057272422,
+            "WINDSPEED": 90572.72422,
             "PREPOWER": 56660.94629,
             "WINDDIRECTION": 222.3866308,
             "TEMPERATURE": -7.452233792,
@@ -27,7 +27,7 @@ $(function () {
         },
         {
             "YearMonth": "Jan-24",
-            "WINDSPEED": 5.086928763,
+            "WINDSPEED": 50869.28763,
             "PREPOWER": 31179.98806,
             "WINDDIRECTION": 179.6838038,
             "TEMPERATURE": -6.883501344,
@@ -39,7 +39,7 @@ $(function () {
         },
         {
             "YearMonth": "Feb-24",
-            "WINDSPEED": 6.29140625,
+            "WINDSPEED": 62914.0625,
             "PREPOWER": 58197.37258,
             "WINDDIRECTION": 179.1160714,
             "TEMPERATURE": -6.037723214,
@@ -51,7 +51,7 @@ $(function () {
         },
         {
             "YearMonth": "Mar-24",
-            "WINDSPEED": 6.193447581,
+            "WINDSPEED": 61934.47581,
             "PREPOWER": 60023.72621,
             "WINDDIRECTION": 182.719422,
             "TEMPERATURE": 5.612331989,
@@ -63,7 +63,7 @@ $(function () {
         },
         {
             "YearMonth": "Apr-24",
-            "WINDSPEED": 6.207866379,
+            "WINDSPEED": 62078.66379,
             "PREPOWER": 64349.38906,
             "WINDDIRECTION": 186.8042385,
             "TEMPERATURE": 11.09091236,
@@ -75,7 +75,7 @@ $(function () {
         },
         {
             "YearMonth": "May-24",
-            "WINDSPEED": 8.900571045,
+            "WINDSPEED": 89005.71045,
             "PREPOWER": 91464.13453,
             "WINDDIRECTION": 134.9512932,
             "TEMPERATURE": 18.97850185,
@@ -87,7 +87,7 @@ $(function () {
         },
         {
             "YearMonth": "Jun-24",
-            "WINDSPEED": 6.948611111,
+            "WINDSPEED": 69486.11111,
             "PREPOWER": 67952.48276,
             "WINDDIRECTION": 135.76875,
             "TEMPERATURE": 23.92329861,
@@ -211,7 +211,7 @@ $(function () {
             }],
             series: [
                 {
-                    name: 'WINDSPEED',
+                    name: 'WINDSPEED *10000',
                     type: 'line',
                     data: data.map(item => item.WINDSPEED)
                 },
